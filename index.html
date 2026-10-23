@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440">
+  <meta name="description" content="Промышленные тепловизионные системы Raythink: оборудование для круглосуточного мониторинга и безопасности объектов.">
+  <title>Raythink — промышленные тепловизионные системы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- Фон, камера и вся шапка уже находятся в исходной картинке. -->
+      <h1 id="hero-title" class="hero__title">Промышленные<br>тепловизионные<br>системы</h1>
+      <p class="hero__description">Разрабатываем и производим современное<br>оборудование для круглосуточного<br>мониторинга и безопасности объектов</p>
+      <a class="catalog-button" href="mailto:info@raythink-tech.com?subject=Запрос%20каталога%20с%20ценами">Получить каталог с ценами</a>
+
+      <div class="detection" role="img" aria-label="Тепловизор обнаружил пожар. Температура меняется от 570 до 630 градусов Цельсия.">
+        <div class="detection__temperature" aria-hidden="true">max <span id="temperature">615</span> °C</div>
+        <div class="detection__flames" aria-hidden="true">
+          <img class="flame flame--left" src="assets/flame-left.png" width="24" height="32" alt="">
+          <img class="flame flame--right" src="assets/flame-right.png" width="24" height="32" alt="">
+          <img class="flame flame--center" src="assets/flame-center.png" width="32" height="42" alt="">
+        </div>
+        <p class="detection__alert" aria-hidden="true">Обнаружен<br>пожар</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
